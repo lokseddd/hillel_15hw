@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    width: 300px;
+}
+
+.list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.btn {
+    width: 100px;
+    height: 40px;
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 5px;
+    display: inline;
+    transition: background-color 0.2s;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(154, 152, 152);
+}
