@@ -58,6 +58,9 @@ function updateCatInfo(cat, index) {
 buttons.forEach((button, index) => {
     button.addEventListener("click", () => {
         updateCatInfo(cats[index], index);
+
+        buttons.forEach((btn) => btn.classList.remove("active"));
+        button.classList.add("active");
     });
 });
 
